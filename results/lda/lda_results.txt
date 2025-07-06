@@ -1,0 +1,23 @@
+k=2 → Coherence: 0.3305 | Diversity: 0.8125
+k=4 → Coherence: 0.4347 | Diversity: 0.7188
+k=6 → Coherence: 0.4622 | Diversity: 0.6875
+k=8 → Coherence: 0.4828 | Diversity: 0.6406
+k=10 → Coherence: 0.4602 | Diversity: 0.6500
+k=12 → Coherence: 0.4533 | Diversity: 0.6458
+k=14 → Coherence: 0.4781 | Diversity: 0.6339
+k=16 → Coherence: 0.4678 | Diversity: 0.6797
+k=18 → Coherence: 0.4930 | Diversity: 0.7361
+
+Top terms per topic for k=8:
+Topic 0 (coherence = 0.5152): city, fake, user, dumb, snow, global, warming, think
+Topic 1 (coherence = 0.3147): user, global, warming, believe, real, know, deny, year
+Topic 2 (coherence = 0.5264): trump, cause, global, warming, user, tell, end, ok
+Topic 3 (coherence = 0.4846): user, global, warming, think, adapt, republicans, snow, dumb
+Topic 4 (coherence = 0.4696): user, fight, thing, s, action, need, real, world
+Topic 5 (coherence = 0.4361): global, warming, user, science, want, world, problem, need
+Topic 6 (coherence = 0.5361): like, fact, die, manmade, sâ, global, warming, user
+Topic 7 (coherence = 0.5798): s, happen, epa, sea, new, rise, ask, level
+
+Topic Diversity (top 8 words): 0.6406
+
+Enriched file with topic assignments saved to: data/test_preprocessed_VADER_BERTBASE_BERTFT_LLM_LDA.csv

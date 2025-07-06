@@ -1,0 +1,55 @@
+[FULL]
+Tweet count: 15012
+Sentiment distribution:
+sentiment
+positive    8621
+neutral     4376
+negative    2015
+Name: count, dtype: int64
+Average tweet length (chars): 115.13
+Average tweet length (tokens): 16.62
+Contains hashtag (%): 16.95
+Contains emoji (%): 0.85
+
+
+[TRAIN]
+Tweet count: 12009
+Sentiment distribution:
+sentiment
+positive    6896
+neutral     3501
+negative    1612
+Name: count, dtype: int64
+Average tweet length (chars): 115.03
+Average tweet length (tokens): 16.61
+Contains hashtag (%): 16.74
+Contains emoji (%): 0.86
+
+
+[TEST]
+Tweet count: 2003
+Sentiment distribution:
+sentiment
+positive    1150
+neutral      584
+negative     269
+Name: count, dtype: int64
+Average tweet length (chars): 115.49
+Average tweet length (tokens): 16.64
+Contains hashtag (%): 18.32
+Contains emoji (%): 0.85
+
+
+[VAL]
+Tweet count: 1000
+Sentiment distribution:
+sentiment
+positive    575
+neutral     291
+negative    134
+Name: count, dtype: int64
+Average tweet length (chars): 115.63
+Average tweet length (tokens): 16.68
+Contains hashtag (%): 16.70
+Contains emoji (%): 0.80
+
