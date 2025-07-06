@@ -53,19 +53,21 @@ masterThesis536165/
 - DeepSeek API key (for DeepSeek-Chat)
 
 ### Download Fine-tuned Model (Optional)
-To run the fine-tuned Twitter-RoBERTa model, download the model weights:
+To run the fine-tuned Twitter-RoBERTa model, download the model weights from Google Drive:
 
+[Download model.safetensors from Google Drive](https://drive.google.com/file/d/1nbwUv0txVLnuBuPxG8Lf2anKxH4zQ4Kf/view?usp=drive_link)
+
+After downloading, place the file at:
+```
+data/Twitter-RoBERTa_Fine_Tuning_Weights/model.safetensors
+```
+
+**(Optional: Download via command line)**
+If you have the `gdown` Python package installed, you can run:
 ```bash
-# Create the model directory
-mkdir -p data/Twitter-RoBERTa_Fine_Tuning_Weights/
-
-# Download the model file (476 MB)
-# Option 1: Using curl (if you have a direct download link)
-# curl -L "YOUR_DOWNLOAD_LINK" -o data/Twitter-RoBERTa_Fine_Tuning_Weights/model.safetensors
-
-# Option 2: Manual download
-# Download from: [Add your download link here - Google Drive, Dropbox, etc.]
-# Place the file at: data/Twitter-RoBERTa_Fine_Tuning_Weights/model.safetensors
+pip install gdown
+# Download using the file ID from the Google Drive link
+gdown --id 1nbwUv0txVLnuBuPxG8Lf2anKxH4zQ4Kf -O data/Twitter-RoBERTa_Fine_Tuning_Weights/model.safetensors
 ```
 
 **Note:** The fine-tuned model is optional. The analysis can run without it, using only the base Twitter-RoBERTa model.
