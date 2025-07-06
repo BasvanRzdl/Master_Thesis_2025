@@ -41,7 +41,7 @@ masterThesis536165/
 │   └── prompt_robustness/         # Robustness test results
 ├── main.py                        # Main execution script
 ├── requirements.txt               # Python dependencies
-└── Thesis Text/                   # Thesis documentation
+└── Master_Thesis_Final.pdf        # Thesis pdf
 ```
 
 ## Quick Start
